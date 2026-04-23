@@ -5,7 +5,12 @@ DUE DATE:    04/22/2026
 
 PURPOSE:    Learn about Hashing
 
-WHAT I LEARNED:    Hashing allows O(1) for 
+WHAT I LEARNED:    Hashing allows O(1) average-case insert and retrieval by mapping
+                   objects to array indices via a hash function. Collisions are handled
+                   by linear probing (check next slot), relative prime probing (step by
+                   a constant relatively prime to array length), or chaining (linked lists
+                   at each bucket). Each scheme trades off simplicity, clustering, and
+                   memory usage differently. 
          
 CREDITS (BE SPECIFIC: FRIENDS, PEERS, ONLINE WEBSITE): 
 
